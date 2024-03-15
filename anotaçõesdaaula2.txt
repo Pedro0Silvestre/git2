@@ -1,0 +1,71 @@
+
+C:\Users\202402841904\projeto>git config --global user.name "Pedro Silvestre"
+
+C:\Users\202402841904\projeto>git config --global user.username Pedro0Silvestre
+
+C:\Users\202402841904\projeto>git config --global user.email phsmmbr@gmail.com
+
+C:\Users\202402841904\projeto>git config --global user core.editor "code --wait"
+error: key does not contain a section: user
+
+C:\Users\202402841904\projeto>git config --global core.editor "code --wait"
+
+C:\Users\202402841904\projeto>git config --global core.autocrlf false
+
+C:\Users\202402841904\projeto>
+
+
+Primeiro commit
+:\Users\202402841904\projeto>git add projeto.py
+
+C:\Users\202402841904\projeto>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   projeto.py
+
+
+C:\Users\202402841904\projeto>git commit -m "Primeiro commit"
+[main (root-commit) 98a67e4] Primeiro commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 projeto.py
+
+C:\Users\202402841904\projeto>git branch
+* main
+
+para fazer merge	 deve estar no brach q vai receber as modificações
+
+git merge: faz a fusão entre duas branches, pega as alterações num branch e junta num outro 
+o merge cria um novo commit que juntas as duas alterações git 
+
+>git checkout -b fb : criua um novo branch e migra para ele
+primeiro adiciona para preparar dps comita´
+preparado ,modificado , commmitado 
+
+gitK: mostra todos os nós no seu main
+
+git branch -d: deleta uma branch após copmando insira seu nome 
+
+tecla para cima e para baixo copia comandos usados anteriormente
+
+OQUE É O GITHUB
+
+Sincronizar github com o repositorio local 
+
+push: repositorio remoto recebe informções
+pull: puxando informações do repostiorio remoto para o local
+
+comando para sincronizar
+1-C:\Users\202402841904\projeto>git remote add origin https://github.com/Pedro0Silvestre/git2.git
+2- CTR C interrompe execuçõe sdo prompt
+3- git clone + url : clona um repostiria remoto na sua maquina
+
+git pull: Atualiza automaticamente os arquivos de um repostitorio no git 
+primeiro faz git add dps git commit e epor ultimo git push
+
+trabaçlhando nu branch local e quero passar pra remoto git add . git commit o git push n funcionan pois precisar criar esse repositorio no virtual 
+
+git push --set-upstream origin fb ( usado para por informações de um novo brnach no git remoto esse comando cria esssa no brnach no git )
